@@ -1,0 +1,33 @@
+Deploying a React app
+While we have been using GitHub Pages to deploy our static webpages till now, and we can definitely continue to do so with hacky ways, it’s far easier to let a PaaS (Platform as a Service) do the same for us! There are a lot of options to host such sites, and the Vite hosting docs go over the most popular ones among them.
+
+Not only do some of these get rid of additional steps after pushing our code to GitHub as these services have tools that automatically deploy on push, but you also don’t have to worry about other issues further down the curriculum, like routers and build steps. We shall use a few selected options for now. Once you are done with the assignment, choose one of the following options, and deploy!
+
+Netlify
+While there are many ways to deploy to Netlify, like uploading your dist directly or using Netlify’s netlify-cli CLI, the most convenient way would be to directly import your GitHub repository to Netlify.
+
+Push your React application to GitHub.
+Import your project to Netlify by logging in, and selecting your repository.
+Select the branch to deploy from (the default setting, from main, works) and hit “Deploy site”!
+You can access more settings here if you need to!
+Links
+Homepage
+Documentation Website
+This section of the Vite docs has a similar brief guide for deployment
+Vercel
+Similar to Netlify, Vercel also offers a few ways to deploy, but we will be importing our GitHub repository to get benefits like deploy-on-push.
+
+Again, push your React application to GitHub.
+Import your project to Vercel.
+Vercel will automatically detect that you are using Vite. Set your name as you like, and hit “Deploy”!
+Links
+Homepage
+Documentation Website
+Cloudflare pages
+Yes, push your React application to GitHub.
+Create a new Cloudflare account and log into it.
+Under “Account Home”, select “Workers & Pages” > “Pages” > “Connect to Git”.
+Connect to GitHub and select your GitHub repository.
+Under “Set up builds and deployments”, set npm run build as the build command, and dist as the build output directory.
+Under “Environment variables (advanced)” > “Add variable”, add a variable named NODE_VERSION and set its value to be the version number of Node that you are using. You can find this by executing node -v in your terminal.
+Hit “Save and Deploy” and watch it come to life!
