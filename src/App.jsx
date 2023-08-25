@@ -1,7 +1,7 @@
 import React from 'react';
-import firstSection from './components/firstSection';
-import secondSection from './components/secondSection';
-import thirdSection from './components/thirdSection';
+import FirstSection from './components/FirstSection';
+import SecondSection from './components/SecondSection';
+import ThirdSection from './components/ThirdSection';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1> CV Application</h1>
       <h2> Please enter your personal data</h2>
-      <firstSection />
+      <FirstSection />
       <secondSection />
       <thirdSection />
     </div>

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-function firstSection() {
+function FirstSection() {
       return (
             <>
             <div className="firstS">
@@ -12,4 +12,4 @@ function firstSection() {
 
 
 
-export default firstSection;
+export default FirstSection;
