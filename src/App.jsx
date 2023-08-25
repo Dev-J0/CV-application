@@ -11,8 +11,8 @@ function App() {
       <h1> CV Application</h1>
       <h2> Please enter your personal data</h2>
       <FirstSection />
-      <secondSection />
-      <thirdSection />
+      <SecondSection />
+      <ThirdSection />
     </div>
   );
  
