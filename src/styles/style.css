@@ -2,7 +2,9 @@ body {
     background-color: black;
     color: white;
     font-family: 'Arial', sans-serif;
+    padding: 50px;
     
+
   }
   
   .button {
@@ -10,4 +12,21 @@ body {
     color: black;
   }
 
-  
+  h1 {
+    color: rgb(109, 107, 107);
+    position: absolute;
+    top: 70px;
+    left: 550px;
+  }
+
+  h2 {
+    font-size: 20px;
+    transform: translate(530px, -50px);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    transform: translate(90px, 30px)
+  }

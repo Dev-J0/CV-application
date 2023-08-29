@@ -39,6 +39,7 @@ function FirstSection() {
               <button onClick={handleEdit}>Edit Contact</button>
             </>
           ) : (
+            
             <form onSubmit={handleSubmit}>
               <label>
                 Name:
@@ -66,6 +67,7 @@ function FirstSection() {
               </label>
               <button type="submit">Register Contact</button>
             </form>
+            
           )}
         </div>
       );
