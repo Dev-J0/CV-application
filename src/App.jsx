@@ -11,9 +11,11 @@ function App() {
     <div className="App">
       <h1> CV Application</h1>
       <h2> Please enter your personal data</h2>
+      <div className="containers">
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      </div>
     </div>
   );
  
