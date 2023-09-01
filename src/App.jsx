@@ -1,12 +1,13 @@
 import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 import ThirdSection from './components/ThirdSection';
-import './styles/style.css'
+import './styles/style.css';
 
 
 function App() {
  
   return (
+    <>
     <div className="App">
       <h1> CV Application</h1>
       <h2> Please enter your personal data</h2>
@@ -16,6 +17,7 @@ function App() {
       <ThirdSection />
       </div>
     </div>
+    </>
   );
  
 }
