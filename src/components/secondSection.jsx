@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 function SecondSection() {
   const [schoolName, setSchoolName] = useState('');
@@ -47,7 +47,7 @@ function SecondSection() {
             />
           </label>
           <label>
-            Field of Study
+            Title of Study
             <input
               type="text"
               value={titleOfStudy}

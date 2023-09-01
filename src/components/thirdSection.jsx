@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react';
 
 function ThirdSection() {
@@ -51,7 +50,7 @@ function ThirdSection() {
                     </label>
                     <label>
                         Main Resposabilities 
-                        <input value="text" value={responsabilities} onChange={handleResponsabilitiesChange}
+                        <input type="text" value={responsabilities} onChange={handleResponsabilitiesChange}
                         />
                     </label>
                     <button type="submit">Register Data</button>
