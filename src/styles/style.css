@@ -24,9 +24,18 @@ body {
     transform: translate(530px, -50px);
   }
 
-  form {
+ 
+
+  .App {
+   
+  }
+
+  .containers {
     display: flex;
-    flex-direction: column;
-    margin: 60px;
-    transform: translate(90px, 30px)
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+    width:500px;
+    transform: translate(400px,8px)
   }
