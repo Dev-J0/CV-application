@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    
+
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+  }
+
+  h1 {
+    color: rgb(109, 107, 107);
+    position: absolute;
+    top: 70px;
+    left: 550px;
+  }
+
+  h2 {
+    font-size: 20px;
+    transform: translate(530px, -50px);
+  }
+
+ 
+
+
+  .containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+    width:500px;
+    transform: translate(400px,8px)
+  }
